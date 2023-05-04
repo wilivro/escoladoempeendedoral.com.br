@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    src: url("../fonts/OpenSans-LightItalic.ttf");
+    font-family: "OpenSans-LightItalic";
+}
+
+@font-face {
+    src: url("../fonts/OpenSans-SemiBold.ttf");
+    font-family: "OpenSans-SemiBold";
+}
+
+
+/* Header - Navbar */
+
+header {
+    background-image: url("../img/bg-top.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 676px;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 40px;
+}
+
+.navbar-toggler {
+    border: 0;
+    outline: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar {
+    padding-top: 20px;
+}
+
+.nav-item {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.palheta-bordas {
+    position: absolute;
+    bottom: -50px;
+    top: -200px;
+    left: 300px;
+    right: 0;
+}
+
+.logo-emp {
+    display: block;
+    margin: 100px auto;
+    padding: 0 10% 0;
+}
+
+
+/* Section 1 */
+
+.sec-1 {
+    height: 400px;
+    min-height: 400px;
+}
+
+.texto {
+    padding-top: 30px;
+}
+
+.sec-1 h1 {
+    color: #c93249;
+    font-size: 100px;
+    text-align: end;
+    font-family: "OpenSans-LightItalic";
+    line-height: 65px;
+    width: 50%;
+}
+
+.sec-1 p {
+    margin-left: 100px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.cadastro {
+    margin-top: 70px;
+    margin-left: 20px;
+    position: absolute;
+    color: #fff;
+}
+
+.cadastro h1 {
+    color: #fff;
+    font-size: 46px;
+    text-align: left;
+    margin-left: 90px;
+    width: auto;
+}
+
+.cadastro label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: right;
+    display: inline-block;
+    width: 150px;
+}
+
+.cadastro input {
+    width: 300px;
+    border: 0;
+    line-height: 28px;
+}
+
+.cadastro input:focus{
+    outline: none;
+}
+
+
+.cadastro .btn {
+    background-color: #f28d26;
+    border-color: #f28d26;
+    border-radius: 0;
+    width: 100px;
+    height: 28px;
+    padding: 0;
+}
+
+.cadastro .btn:focus {
+    box-shadow: 0 0 0 0.25rem rgb(242 141 38 / 25%);
+}
+
+/* Login */
+.login {
+    margin-top: 70px;
+    margin-left: -30px;
+    position: absolute;
+    color: #fff;
+}
+
+.login h1 {
+    color: #fff;
+    font-size: 46px;
+    text-align: left;
+    margin-left: 90px;
+    width: auto;
+}
+
+.login label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: right;
+    display: inline-block;
+    width: 150px;
+}
+
+.login input {
+    width: 370px;
+    border: 0;
+    line-height: 38px;
+}
+
+.login input:focus{
+    outline: none;
+}
+
+
+.login .btn {
+    background-color: #f28d26;
+    border-color: #f28d26;
+    border-radius: 0;
+    width: 100px;
+    height: 28px;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.login .btn-cadastro:focus {
+    box-shadow: 0 0 0 0.25rem rgb(242 141 38 / 25%);
+}
+
+.login .btn-cadastro {
+    background-color: #c93249;
+    border-color: #c93249;
+    border-radius: 0;
+    width: 100px;
+    height: 28px;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.login .btn:focus {
+    box-shadow: 0 0 0 0.25rem rgb(242 141 38 / 25%);
+}
+
+.palheta {
+    margin-top: -100px;
+}
+
+/* Section 1 - Mobile */
+
+.sec-1-mobile {
+    height: 550px;
+    min-height: 550px;
+    background-color: #fd644f;
+    font-family: "OpenSans-LightItalic";
+    color: #fff;
+    display: none;
+}
+
+.cadastro-mobile {
+    padding-top: 50px;
+    width: 500px;
+}
+
+.cadastro-mobile h1 {
+    font-size: 46px;
+    text-align: center;
+}
+
+.cadastro-mobile label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    width: 150px;
+}
+
+.cadastro-mobile input {
+    border: 0;
+    line-height: 28px;
+}
+
+.cadastro-mobile input:focus{
+    outline: none;
+}
+
+.cadastro-mobile .btn {
+    background-color: #f28d26;
+    border-color: #f28d26;
+    border-radius: 0;
+}
+
+.cadastro-mobile .btn:focus {
+    box-shadow: 0 0 0 0.25rem rgb(242 141 38 / 25%);
+}
+
+/* Login - Mobile */
+
+.login-mobile {
+    padding-top: 50px;
+    width: 500px;
+}
+
+.login-mobile h1 {
+    font-size: 46px;
+    text-align: center;
+}
+
+.login-mobile label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    width: 150px;
+}
+
+.login-mobile input {
+    border: 0;
+    line-height: 28px;
+}
+
+.login-mobile input:focus{
+    outline: none;
+}
+
+.login-mobile .btn {
+    background-color: #f28d26;
+    border-color: #f28d26;
+    border-radius: 0;
+}
+
+.login-mobile .btn:focus {
+    box-shadow: 0 0 0 0.25rem rgb(242 141 38 / 25%);
+}
+
+.login-mobile .btn-cadastro:focus {
+    box-shadow: 0 0 0 0.25rem rgb(242 141 38 / 25%);
+}
+
+.login-mobile .btn-cadastro {
+    background-color: #c93249;
+    border-color: #c93249;
+    border-radius: 0;
+    width: 100px;
+    height: 28px;
+    margin-left: 10px;
+}
+
+/* Section 2 */
+
+.sec-2 {
+    color: #fff;
+    height: 550px;
+    min-height: 550px;
+    background-color: #eb9249;
+}
+
+.sec-2 h1 {
+    font-family: "OpenSans-LightItalic";
+    margin-left: 100px;
+    font-size: 48px;
+    line-height: 48px;
+    width: 23%;
+    margin-top: 50px;
+
+}
+
+.sec-2 p {
+    font-size: 21px;
+    margin-top: 30px;
+    margin-left: 160px;
+}
+
+.dandoseta {
+    margin-top: 185px;
+    margin-left: 100px;
+}
+
+.inscreva-se h1 {
+    margin-left: 40px;
+    font-family: "OpenSans-LightItalic";
+    font-size: 64px;
+    width: auto;
+    margin-top: 0;
+    line-height: 48px;
+}
+
+
+/* Footer */
+
+footer {
+    height: 150px;
+    min-height: 150px;
+}
+
+.logo-bottom {
+    display: block;
+    margin: 50px auto;
+    width: 30%;
+}

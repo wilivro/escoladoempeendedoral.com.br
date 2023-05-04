@@ -1,0 +1,614 @@
+/* Responsive */
+
+@media only screen and (max-width: 1399px) {
+
+    /* Header - Navbar */
+
+    .logo-emp {
+        width: 700px;
+    }
+
+    /* Section 1 */
+
+    .sec-1 {
+        height: 350px;
+        min-height: 350px;
+    }
+
+    .sec-1 h1 {
+        font-size: 80px;
+        line-height: 55px;
+    }
+
+    .sec-1 p {
+        margin-left: 100px;
+        font-size: 16px;
+    }
+
+    .cadastro {
+        margin-top: 40px;
+    }
+
+    .cadastro h1 {
+        font-size: 36px;
+        margin-bottom: 0;
+        margin-left: 105px;
+    }
+
+    .cadastro label {
+        font-size: 14px;
+    }
+
+    .cadastro input {
+        width: 230px;
+    }
+
+    /* Login */
+
+    .login {
+        margin-top: 60px;
+        margin-left: -30px!important;
+    }
+
+    .login h1 {
+        font-size: 36px;
+        margin-bottom: 0;
+        margin-left: 100px;
+    }
+
+    .login label {
+        font-size: 14px;
+    }
+
+    .login input {
+        width: 300px;
+        line-height: 30px;
+    }
+
+    /* Section 2 */
+
+    .sec-2 {
+        height: auto!important;
+        min-height: 470px;
+    }
+
+    .sec-2 h1 {
+        margin-left: 100px;
+        font-size: 38px;
+        line-height: 38px;
+    }
+    
+    .sec-2 p {
+        margin-left: 150px;
+        font-size: 17px;
+    }
+
+    .dandoseta {
+        margin-top: 150px;
+        margin-left: 145px;
+        width: 150px;
+    }
+
+    .inscreva-se h1 {
+        font-size: 48px;
+    }
+
+    /* Footer */
+
+    footer {
+        height: 100px;
+        min-height: 100px;
+    }
+    
+    .logo-bottom {
+        width: 27%;
+    }
+        
+}
+
+@media only screen and (max-width: 1199px) {
+
+    /* Header - Navbar */
+
+    header {
+        min-height: 550px;
+    }
+
+    .logo-emp {
+        width: 550px;
+    }
+
+    /* Section 1 */
+
+    .sec-1 {
+        height: 320px;
+        min-height: 320px;
+    }
+
+    .sec-1 h1 {
+        font-size: 70px;
+        line-height: 50px;
+    }
+
+    .sec-1 p {
+        margin-left: 80px;
+        font-size: 14px;
+    }
+
+    .cadastro {
+        margin-top: 40px;
+    }
+
+    .cadastro h1 {
+        font-size: 28px;
+        margin-bottom: 0;
+        margin-left: 75px;
+    }
+
+    .cadastro label {
+        font-size: 12px;
+        width: 120px;
+    }
+
+    .cadastro input {
+        width: 180px;
+    }
+
+    /* Login */
+
+    .login {
+        margin-top: 55px;
+    }
+
+    .login h1 {
+        font-size: 28px;
+        margin-bottom: 0;
+        margin-left: 75px;
+    }
+
+    .login label {
+        font-size: 12px;
+        width: 120px;
+    }
+
+    .login input {
+        width: 250px;
+    }
+    
+    .palheta {
+        margin-top: -70px;
+    }
+
+    /* Section 2 */
+
+    .sec-2 {
+        height: 430px;
+        min-height: 430px;
+    }
+
+    .sec-2 h1 {
+        margin-left: 80px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    
+    .sec-2 p {
+        margin-left: 120px;
+        font-size: 15px;
+    }
+
+    .dandoseta {
+        margin-top: 160px;
+        margin-left: 115px;
+        width: 120px;
+    }
+
+    .inscreva-se h1 {
+        font-size: 40px;
+    }
+
+    /* Footer */
+
+    footer {
+        height: 100px;
+        min-height: 100px;
+    }
+    
+    .logo-bottom {
+        width: 27%;
+    }
+        
+}
+
+@media only screen and (max-width: 991px) {
+
+    /* Header - Navbar */
+
+    header {
+        height: auto!important;
+        min-height: 550px;
+    }
+
+    .logo-emp {
+        width: 550px;
+    }
+
+    /* Section 1 */
+
+    .sec-1 {
+        height: 320px;
+        min-height: 320px;
+    }
+
+    .sec-1 h1 {
+        margin-left: 0px;
+        font-size: 70px;
+        line-height: 50px;
+        float: left;
+        padding: 10%;
+    }
+
+    .sec-1 p {
+        margin-top: 80px;
+        font-size: 14px;
+    }
+
+    .cadastro {
+        display: none;
+    }
+
+    .cadastro h1 {
+        font-size: 28px;
+        margin-bottom: 0;
+        margin-left: 75px;
+        text-align: center!important;
+    }
+
+    .cadastro label {
+        font-size: 12px;
+        width: 120px;
+    }
+
+    .cadastro input {
+        width: 180px;
+    }
+    
+    .palheta {
+        display: none;
+    } 
+
+    /* Login */
+    .login {
+        display: none;
+    }
+    
+    /* Section 1 - Mobile */
+
+    .sec-1-mobile {
+        display: block;
+        height: auto;
+        min-height: 300px;
+        padding-bottom: 70px;
+    }
+
+    .cadastro-mobile {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .cadastro-mobile .btn {
+        margin-top: 10px;
+        padding: 0;
+        float: left;
+        width: 100%;
+        height: 35px;
+    }
+
+    /* Login - Mobile */
+
+    .login-mobile {
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .login-mobile label {
+        width: auto;
+    }
+
+    .login-mobile input {
+        width: 100%;
+    }
+
+    .login-mobile .btn {
+        margin-top: 10px;
+        float: left;
+        width: 100%;
+        height: 35px;
+    }
+
+
+    /* Section 2 */
+
+    .sec-2 {
+        height: 450px;
+        min-height: 450px;
+    }
+
+    .sec-2 h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    
+    .sec-2 p {
+        margin-left: 140px;
+        font-size: 16px;
+    }
+
+    .dandoseta {
+        display: none;
+        margin-top: 70px;
+        margin-left: 110px;
+        width: 120px;
+    }
+
+    .inscreva-se h1 {
+        font-size: 48px;
+        display: none;
+    }
+
+    /* Footer */
+   
+    .logo-bottom {
+        width: 50%;
+    }
+        
+}
+
+
+@media only screen and (max-width: 767px) {
+
+
+    /* Section 1 */
+
+    .sec-1 {
+        height: auto!important;
+        min-height: 320px;
+    }
+    
+
+    .sec-1 h1 {
+        margin-top: 20px;
+        margin-left: 0px;
+        font-size: 50px;
+        line-height: 50px;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .sec-1 p {
+        margin-top: 100px;
+        margin-left: 0px;
+        font-size: 18px;
+        text-align: center;
+        padding: 0 10% 5%;
+    }
+
+   /* Section 1 - Mobile */
+
+   .sec-1-mobile {
+    display: block;
+    }
+
+    .cadastro-mobile {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .cadastro-mobile .btn {
+        margin-top: 10px;
+        padding: 0;
+        float: left;
+        width: 100%;
+        height: 35px;
+    }
+
+    /* Login - Mobile */
+
+    .login-mobile {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .login-mobile .btn {
+        margin-top: 10px;
+        float: left;
+        width: 100%;
+        height: 35px;
+    }
+
+    /* Section 2 */
+
+    .sec-2 {
+        height: auto!important;
+        min-height: 350px;
+    }
+
+    .sec-2 h1 {
+        margin-top: 0px;
+        font-size: 30px;
+        line-height: 30px;
+        width: 70%;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+    
+    .sec-2 p {
+        font-size: 15px;
+        text-align: center;
+        margin: 0 !important;
+        margin-top: 30px!important;
+        padding: 0 10% 5%;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 493px) {
+
+    /* Header - Navbar */
+    
+    .navbar-brand {
+        width: 50%;
+    }
+
+     /* Section 1 */
+
+     .sec-1 {
+        height: 320px;
+        min-height: 320px;
+    }
+    
+
+    .sec-1 h1 {
+        margin-top: 20px;
+        margin-left: 0px;
+        font-size: 50px;
+        line-height: 50px;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .sec-1 p {
+        margin-top: 100px;
+        margin-left: 0px;
+        font-size: 18px;
+        text-align: center;
+
+    }
+    
+     /* Section 1 - Mobile */
+
+   .sec-1-mobile {
+    display: block;
+    }
+
+    .cadastro-mobile {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .cadastro-mobile .btn {
+        margin-top: 10px;
+        padding: 0;
+        float: left;
+        width: 100%;
+        height: 35px;
+    }
+
+
+    /* Section 2 */
+
+    .sec-2 {
+        height: auto!important;
+        min-height: 400px;
+    }
+
+    .sec-2 h1 {
+        font-size: 30px;
+        line-height: 30px;
+        width: 70%;
+        text-align: center;
+
+    }
+    
+    .sec-2 p {
+        font-size: 15px;
+        text-align: center;
+        margin: 0 !important;
+        margin-top: 30px!important;
+        padding: 0 10% 5%;
+
+    }
+
+}
+
+
+
+@media only screen and (max-width: 381px) {
+
+
+    /* Section 1 */
+
+    .sec-1 {
+       height: auto!important;
+       min-height: 320px;
+   }
+   
+
+   .sec-1 h1 {
+       margin-top: 20px;
+       margin-left: 0px;
+       font-size: 50px;
+       line-height: 50px;
+       padding: 0;
+       width: 100%;
+       text-align: center;
+   }
+
+   .sec-1 p {
+       margin-top: 100px;
+       margin-left: 0px;
+       font-size: 18px;
+       text-align: center;
+
+   }
+   
+ /* Section 1 - Mobile */
+
+    .sec-1-mobile {
+        display: block;
+    }
+
+    .cadastro-mobile {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .cadastro-mobile h1 {
+        font-size: 36px;
+    }
+
+    .cadastro-mobile .btn {
+        margin-top: 10px;
+        padding: 0;
+        float: left;
+        width: 100%;
+        height: 35px;
+    }
+
+
+   /* Section 2 */
+
+   .sec-2 h1 {
+       font-size: 30px;
+       line-height: 30px;
+       margin-left: 0px!important;
+       width: 100%!important;
+       text-align: center;
+
+   }
+   
+   .sec-2 p {
+       font-size: 15px;
+       text-align: center;
+       margin: 0 !important;
+       margin-top: 30px!important;
+       padding: 0 10% 5%;
+
+   }
+
+}
